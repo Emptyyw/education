@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html,
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	background-color: #cbcbcb;
+	font-family: Montserrat;
+	letter-spacing: -0.5px;
+	font-weight: 400;
+	color: var(--white);
+
+	overflow-x: hidden;
+	overflow-y: scroll;
+
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1200px;
+	box-sizing: border-box;
+}
+
+.title {
+	text-align: center;
+
+}
+
+.cheked {
+	color: #e30b0b;
+}
+.icons {
+	text-align: end;
+}
+
+.recipes {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	margin: 20px;
+text-align: center
+;}
+
+.recipes-item {}
+
+.recipes-item__title {
+
+	margin: 10px;
+}
+
+
+.recipes-title {
+	margin: 5px;
+	font-size: 15px;
+	display: block;
+	height: 50px;
+	text-align: start;
+}
+
+.recipes-item__image {
+	margin: 10px;
+
+
+}
+
+.recipes-img__item {
+	border-radius: 20px;
+	width: 350px;
+	height: 400px;
+	object-fit: cover;
+	transition: all 0.8s;
+}
+
+.recipes-img__item:hover {
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.624), 0 4px 5px rgba(0, 0, 0, 0.536);
+	transition: all 0.8s;
+}
