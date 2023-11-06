@@ -6,7 +6,7 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 
-	background-color: #cbcbcb;
+	background-color: #dcdcdc;
 	font-family: Montserrat;
 	letter-spacing: -0.5px;
 	font-weight: 400;
@@ -32,6 +32,7 @@ body {
 .cheked {
 	color: #e30b0b;
 }
+
 .icons {
 	text-align: end;
 }
@@ -41,8 +42,8 @@ body {
 	gap: 20px;
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 	margin: 20px;
-text-align: center
-;}
+	text-align: center;
+}
 
 .recipes-item {}
 
