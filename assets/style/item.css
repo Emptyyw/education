@@ -27,6 +27,12 @@ body {
 	text-align: center;
 
 }
+.back {
+	color: #e30b0b;
+	position: fixed;
+	 
+}
+ 
 
 .cheked {
 	color: #e30b0b;
