@@ -34,6 +34,7 @@ body {
 }
 
 .nav {
+	z-index: 999;
 	width: 100%;
 	background-color: rgba(255, 255, 255, 0.287);
 	position: fixed;
@@ -196,8 +197,8 @@ body {
 .d3 {
 	object-fit: cover;
 	width: 0;
-		height: 0;
-		border-left: 50px solid transparent;
-		border-right: 50px solid transparent;
-		border-bottom: 100px solid;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid;
 }
