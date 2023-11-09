@@ -28,7 +28,7 @@ body {
 
 
 .header {
-	background: url(./assets/travel.png) no-repeat;
+	background: url(./assets/travel.webp) no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
